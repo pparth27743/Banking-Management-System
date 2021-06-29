@@ -15,7 +15,7 @@
 * `init.sh` : It creates the db(Database) folder which contains files like `Account.txt, Admin.txt, Customer.txt, and AdminLogs.txt` and a folder named `Transaction` which contain the Transaction file related to each account. It also runs init.c file which creates 2 admin for the system.
 
 * `init.c` : This creates 2 admin for the Banking system
- 
+
 * `server.c` : This is a Banking server.
 
 * `client.c` : This is Admin and Customer client.
@@ -23,37 +23,30 @@
 * `operation.c` : This file contains all the Admin and Customer operation.
 
 * `structures.h` : It contains all the necessary structures like Customer, Transaction, Admin, Account, and AdminLogs which are used in code.
-  
+
 * `readDb.c` : This is the code that helps us to understand what exactly happening inside the database when the server and client communicate with each other.
 
 
 ## How to run?
 
-1. Run `init.sh` by following command in terminal typeing 
+1. Run `init.sh` by following command in terminal typeing
    ```bash
    ./init.sh
    ```
 
-2. Run `server.c` by following command in terminal typeing 
+2. Run `server.c` by following command in terminal typeing
    ```bash
    cc server.c -o server
    ./server
    ```
-3. Run `client.c` by following command in terminal typeing 
+3. Run `client.c` by following command in terminal typeing
    ```bash
    cc client.c -o client
    ./client
    ```
-4. Now Banking System is live. 
-5. To see what Database Inserting, Deleting, and Updating when server and client interact with each other. Run `readDb.c` by following command in terminal typing 
+4. Now Banking System is live.
+5. To see what Database Inserting, Deleting, and Updating when server and client interact with each other. Run `readDb.c` by following command in terminal typing
    ```bash
    cc readDb.c -o readDb
    ./readDb
    ```
-
-
-   
-
-## Created By Parth Patel (MT2020057)
-
-
